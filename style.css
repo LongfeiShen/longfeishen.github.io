@@ -1,3 +1,181 @@
-div {
-  background-color: red;
+* {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: linear-gradient(90deg, #eee, #c2e9fb);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 5px 0 10px 0;
+  background-color: rgba(150, 150, 150, 0.1);
+}
+
+.main {
+  font-size: 45px;
+  font-style: italic;
+  color: skyblue;
+
+  padding-left: 120px;
+}
+
+.main span {
+  text-decoration: underline;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+
+  /* padding-right: 50%; */
+}
+
+.menu li {
+  padding-right: 80px;
+
+  color: #555;
+  font-size: 25px;
+
+  text-decoration: underline;
+}
+
+.menu li:last-child {
+  padding-right: 120px;
+}
+.menu a {
+}
+
+.menu a:visited {
+  color: #555;
+}
+
+.menu a:hover {
+  color: black;
+  font-size: 27px;
+}
+
+.menu a:active {
+  color: black;
+  font-size: 27px;
+}
+
+.content {
+  margin: 40px 400px;
+}
+.aboutMe {
+  display: flex;
+  /* align-items: start; */
+  justify-content: center;
+
+  margin-bottom: 80px;
+}
+
+.self {
+  border-radius: 40px;
+
+  object-fit: cover;
+  width: 280px;
+  height: 400px;
+  margin-right: 200px;
+
+  /* margin: 40px 0; */
+}
+
+.texts {
+  font-size: 60px;
+}
+
+.greeting {
+  padding-top: 60px;
+}
+
+.name {
+  padding-left: 100px;
+  font-style: italic;
+  color: rgb(40, 132, 168);
+}
+
+.introduction {
+  padding-top: 80px;
+  font-size: 40px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.boxes {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px;
+}
+
+.boxTitle {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.boxContent {
+  padding-top: 30px;
+  font-size: 26px;
+}
+
+.social {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.social {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 25px;
+}
+
+.social a {
+  text-decoration: none;
+  display: flex;
+}
+
+.social a:hover {
+  font-size: 27px;
+}
+
+.social a:active {
+  color: rgb(40, 132, 168);
+}
+
+.logo {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+
+  padding-right: 5px;
+}
+
+.logo:hover {
+  widht: 32px;
+  height: 32px;
+}
+
+.linkedin {
+  color: #007ab9;
+  margin-left: 300px;
+}
+
+.facebook {
+  color: #3b5998;
+}
+
+.instagram {
+  margin-right: 300px;
+  color: rgb(158, 45, 145);
 }
